@@ -1,0 +1,133 @@
+body {
+    width: 900px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2F3848;
+    margin: 0 auto;
+}
+/* Titres */
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #F05768;
+    padding: 10px 0 35px 0;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;    
+    font-style:italic;
+    border-bottom: 3px solid white;
+}
+
+h2 {
+    color: #0099cc;
+    font-size: 35px;
+    font-style: italic;
+}
+/* Liens  */
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9acd32;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right:10px;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+}
+
+a img {
+    width: 30px;
+    margin-left:6px;
+}
+
+.header-content {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-content a {
+    color: #9acd32;
+}
+/* main caméléon  */
+.main-cameleon {
+    position: relative;
+    margin-bottom:20px;
+}
+
+.main-cameleon img {
+    width:100%;
+    
+}
+
+.main-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-top {
+    background-color: #F05768;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
+    position: absolute;
+}
+
+.bottom-cameleon {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom:50px
+}
+
+.grid-cameleon {
+    width:70%;
+}
+
+.grid-cameleon img {
+    width: 135px;
+    margin: 0 5px 5px 0;
+}
+
+.grid-cameleon img:first-child {
+    width: 280px;
+    float: left;
+    margin-right: 10px;
+}
+
+.bottom-newsletter {
+    width:30%;
+    background-color: #004488;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
+    height: 420px;
+}
+
+.title-right {
+    color: #0cf;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+    border-bottom: 2px solid #0cf;
+}
+
+.bottom-newsletter p {
+    color:#9acd32;
+    font-weight:bold;
+}
+
+.bottom-newsletter a {
+    color:#9acd32;
+    font-weight:bold;
+}
+
+footer p {
+    text-align:center;
+    color:#5ab9ce;
+}
